@@ -1,5 +1,5 @@
-import { prisma } from '../../../lib/db'
-import { generateTasksForPlan } from '../../../services/taskGenerator'
+import { prisma } from '@/lib/db'
+import { generateTasksForPlan } from '@/services/taskGenerator'
 import { NextResponse } from 'next/server'
 
 
