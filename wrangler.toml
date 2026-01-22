@@ -1,0 +1,12 @@
+name = "raffussclietos"
+compatibility_date = "2024-11-18"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[kv_namespaces]]
+binding = "NEXT_CACHE_METHODS"
+id = "xxx" # Optional: For caching
+
+[vars]
+# DATABASE_URL = "..." # Set this in Cloudflare Dashboard
+# DIRECT_URL = "..." # Set this in Cloudflare Dashboard

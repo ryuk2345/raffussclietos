@@ -1,0 +1,46 @@
+﻿   ▲ Next.js 15.1.0
+   - Environments: .env
+
+   Creating an optimized production build ...
+node.exe : Failed to 
+compile.
+En línea: 1 
+Carácter: 1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Failed    
+ to compile.:Stri    
+ng) [], RemoteEx    
+ception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+
+./lib/db.ts
+Module not found: 
+Can't resolve 
+'@prisma/client'
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+Import trace for 
+requested module:
+./app/api/auth/route.
+ts
+
+
+> Build failed 
+because of webpack 
+errors
